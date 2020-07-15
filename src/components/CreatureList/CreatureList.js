@@ -5,7 +5,7 @@ class CreatureList extends Component {
   render() {
     const creatureBoxes = this.props.creatureDetails.map((item, index) => {
       return (
-        <CreatureItem item={item} key={index} />
+        <CreatureItem deleteCallback={this.props.deleteCallback} item={item} index={index} key={index} />
       );
     });
 
