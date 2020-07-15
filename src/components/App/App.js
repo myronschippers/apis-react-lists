@@ -7,6 +7,8 @@ class App extends React.Component {
     return (
       <div>
         <Header />
+
+        {/* RENDER THE LIST OF CREATURES */}
       </div>
     );
   }
